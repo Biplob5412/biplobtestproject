@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="13889" started-at="2020-10-19T02:10:55Z" finished-at="2020-10-19T02:11:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13889" started-at="2020-10-19T02:10:55Z" finished-at="2020-10-19T02:11:08Z">
+      <class name="com.biplob.testcases.TestRegister">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.biplob.testcases.TestRegister@145f66e3]" name="initialization" is-config="true" duration-ms="1964" started-at="2020-10-19T02:11:00Z" finished-at="2020-10-19T02:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.biplob.testcases.TestRegister@145f66e3]" name="register" duration-ms="6322" started-at="2020-10-19T02:11:02Z" data-provider="getData" finished-at="2020-10-19T02:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.177745413E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[david12@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123Broadway]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11432.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.biplob.testcases.TestRegister@145f66e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-19T02:11:08Z" finished-at="2020-10-19T02:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.biplob.testcases.TestRegister -->
+      <class name="com.biplob.testcases.TestLogIn">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.biplob.testcases.TestLogIn@4c371370]" name="initialization" is-config="true" duration-ms="2860" started-at="2020-10-19T02:10:55Z" finished-at="2020-10-19T02:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.biplob.testcases.TestLogIn@4c371370]" name="login" duration-ms="2673" started-at="2020-10-19T02:10:57Z" finished-at="2020-10-19T02:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.biplob.testcases.TestLogIn@4c371370]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-19T02:11:00Z" finished-at="2020-10-19T02:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.biplob.testcases.TestLogIn -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
